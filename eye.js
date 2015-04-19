@@ -30,12 +30,12 @@ watch.createMonitor(__dirname, {ignoreDotFiles: true},function(monitor) {
   monitor.on('removed', function(f, stat) {
     var dir = path.relative('.', f);
     console.log('dir ', dir)
-    commit(dir)
+    commit(dir, 'RM')
   })
   monitor.on('created', function(f, stat) {
     var dir = path.relative('.', f);
     console.log('dir ', dir)
-    commit(dir, 'created')
+    commit(dir, 'CREATE')
   });
 });
 
