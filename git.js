@@ -338,6 +338,7 @@
     Git.prototype.push = function (remote, branch, then) {
         var command = "push";
         if (typeof remote === 'string' && typeof branch === 'string') {
+            var command = 'push ' + remote + ' ' + branch
             command = ['push "%s" "%s"', remote, branch];
         }
         if (typeof arguments[arguments.length - 1] === 'function') {
