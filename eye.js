@@ -14,9 +14,9 @@ var Git = require('./git')()
 
 Git.init();
 
-function commit(file, actio) {
+function commit(file, action) {
   Git.add('./*')
-     .commit(file)
+     .commit(action, file)
      // .addRemote('origin', 'git@github.com:Jonovono/mits.git')
      .push('origin', 'master')
 }
