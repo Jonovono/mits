@@ -1,16 +1,6 @@
 var watch = require("watch");
-// var Git = require('nodegit');
 var path = require('path')
 var Git = require('./git')()
-
-// var repoPath = path.resolve(__dirname);
-// var isBare = 0;
-
-
-// Git.Repository.init(repoPath, isBare).then(function(repo) {
-//   console.log('huh')
-//   console.log(repo)
-// });
 
 Git.init();
 
