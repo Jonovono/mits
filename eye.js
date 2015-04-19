@@ -1,3 +1,6 @@
+// Eyes or Mits or something else?
+// This will monitor your current repo and auto commit / push commits to a remote
+
 var watch = require("watch");
 var path = require('path')
 var Git = require('./git')()
