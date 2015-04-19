@@ -16,7 +16,7 @@ Git.init();
 
 function commit(file, action) {
   Git.add('./*')
-     .commit(action, file)
+     .commit(action + ':" + file)
      // .addRemote('origin', 'git@github.com:Jonovono/mits.git')
      .push('origin', 'master')
 }
