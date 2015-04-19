@@ -5,8 +5,9 @@ var Git = require('./git')()
 Git.init();
 
 function commit(file, action) {
+  var dir = path.relative('.', f);
   Git.add('./*')
-     .commit(action + ': ' + file)
+     .commit(action + ': ' + dir)
      .push('origin', 'master')
 }
 
