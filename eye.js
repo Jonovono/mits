@@ -1,5 +1,5 @@
 // Eyes or Mits or something else?
-// This will monitor your current repo and auto commit / push commits to a remote
+// This will monitor your current repo and auto commit / push commits to a remote on every save
 
 var watch = require("watch");
 var path = require('path')
