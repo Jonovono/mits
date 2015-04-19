@@ -339,7 +339,7 @@
         var command = "push";
         if (typeof remote === 'string' && typeof branch === 'string') {
             var command = 'push ' + remote + ' ' + branch
-            command = ['push "%s" "%s"', remote, branch];
+            command = command;
         }
         if (typeof arguments[arguments.length - 1] === 'function') {
             then = arguments[arguments.length - 1];
