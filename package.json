@@ -1,7 +1,7 @@
 {
   "name": "mits",
   "version": "1.0.0",
-  "description": "Auto git commits and pushes to remote repo (optional) on save/create/rename/etc",
+  "description": "Auto git commits and pushes to orgin/master on save/create/rename/etc",
   "main": "./lib/cli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

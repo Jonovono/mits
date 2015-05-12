@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
+
 var CLI = require('../lib/cli');
 var args = process.argv.slice(2);
 
-new CLI().argv(args)
+var directory = process.cwd();
+
+new CLI(directory).argv(args)
