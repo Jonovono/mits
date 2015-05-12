@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Jonovono/mits#readme",
   "dependencies": {
+    "readline": "0.0.7",
     "watch": "^0.16.0"
   }
 }
