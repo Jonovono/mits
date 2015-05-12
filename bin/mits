@@ -6,4 +6,6 @@ var args = process.argv.slice(2);
 
 var directory = process.cwd();
 
+console.log('dririri ', directory)
+
 new CLI(directory).argv(args)
