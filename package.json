@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Jonovono/mits/issues"
   },
-  "homepage": "https://github.com/Jonovono/mits#readme"
+  "homepage": "https://github.com/Jonovono/mits#readme",
+  "dependencies": {
+    "watch": "^0.16.0"
+  }
 }
