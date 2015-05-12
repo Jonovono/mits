@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Auto git commits and pushes to orgin/master on save/create/rename/etc",
   "main": "./lib/cli",
+  "bin": {
+    "mits": "./bin/mits"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
