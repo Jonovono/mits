@@ -1,0 +1,7 @@
+Usage: mits [command]
+
+Description:
+  mits: Auto git commits and push to remote repo (optional)
+
+Commands:
+  help             ->    list all the commands
